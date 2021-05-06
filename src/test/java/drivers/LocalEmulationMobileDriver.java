@@ -25,7 +25,7 @@ public class LocalEmulationMobileDriver implements WebDriverProvider {
     public WebDriver createDriver(DesiredCapabilities capabilities) {
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("platformName", "Android");
-//        capabilities.setCapability("deviceName", "emulator-5554");
+        capabilities.setCapability("deviceName", "Pixel_3a_API_30_x86");
         capabilities.setCapability("version", "11.0");
         capabilities.setCapability("locale", "en");
         capabilities.setCapability("language", "en");
